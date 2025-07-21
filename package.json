@@ -15,8 +15,8 @@
     "baileys",
     "nodejs"
   ],
-  "author": "Your Name",
-  "license": "ISC",
+  "author": "tamaaxzcw",
+  "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.2",
     "pino": "^8.19.0",
