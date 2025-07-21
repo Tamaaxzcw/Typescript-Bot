@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-bot-ts",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot using TypeScript, Baileys, and a plugin architecture.",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc -w & nodemon dist/main.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "typescript",
+    "baileys",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.2",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
